@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<!-- Test comment -->
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid" id="headBar">
+        <div class="row">
+            <div class="col-lg-12">
+                <img src="images/centerNewsLogo.png" class="rounded mx-auto d-block">
+                <img src="images/news.png" class="rounded mx-auto d-block">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row" id="headPhoto">
+            <div class="col-lg-12">
+                <div id="myCarousel">
+
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" align="center">
+                                <a href="" id="link1" target="_blank">
+                                    <!--<span id="image1text" class="carouselText">5 Senate Races and 10 Women Add Up to One Big Moment</span>-->
+                                    <img src="..." alt="news headline" class="d-block carouselImg" id="image1">
+                                    <div class="spanDiv" align="center">
+                                        <h4 id="span1" class="carSpan"></h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item" align="center">
+                                <a href="" id="link2" target="_blank">
+                                <img src="..." alt="news headline" class="d-block carouselImg" id="image2">
+                                    <div class="spanDiv" align="center">
+                                        <h4 id="span2" class="carSpan"></h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item" align="center">
+                                <a href="" id="link3" target="_blank">
+                                <img src="..." alt="news headline" class="d-block carouselImg" id="image3">
+                                    <div class="spanDiv" align="center">
+                                        <h4 id="span3" class="carSpan"></h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid">
+        <div class="row" id="newsRow">
+
+            <div class="col-lg-4 newsContent" id="leftNewsCol">
+                <img src="images/hillary.png" class="rounded mx-auto d-block" id="leftImage">
+                <h1 align="center">Left News</h1>
+                <span id="leftNews"><ul id="leftNewsList"><li>Empty</li></ul></span>
+            </div>
+
+            <div class="col-lg-4 newsContent" id="centerNewsCol">
+                <img src="images/eagle-shield.png" class="rounded mx-auto d-block" id="centerImage">
+                <h1 align="center">Center News</h1>
+                <span id="centerNews"><ul id="centerNewsList"><li>Empty</li></ul></span>
+            </div>
+
+            <div class="col-lg-4 newsContent" id="rightNewsCol">
+                <img src="images/trump1.png" class="rounded mx-auto d-block" id="rightImage">
+                <h1 align="center">Right News</h1>
+                <span id="rightNews"><ul id="rightNewsList"><li>Empty</li></ul></span>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+
+
+
+</body>
+
+</html>
